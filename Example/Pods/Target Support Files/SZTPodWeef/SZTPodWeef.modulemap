@@ -1,0 +1,6 @@
+framework module SZTPodWeef {
+  umbrella header "SZTPodWeef-umbrella.h"
+
+  export *
+  module * { export * }
+}

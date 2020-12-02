@@ -62,9 +62,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9155DA0C59D669EEAD1AC1E /* Pods_SZTPodWeef_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZTPodWeef_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2C3C64D88F8B7D0CCAA40CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B3433E9FEB504BD02C20E1EB /* SZTPodWeef.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SZTPodWeef.podspec; path = ../SZTPodWeef.podspec; sourceTree = "<group>"; };
-		D65555DD77CAB88A3B3BA513 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2C3C64D88F8B7D0CCAA40CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3433E9FEB504BD02C20E1EB /* SZTPodWeef.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SZTPodWeef.podspec; path = ../SZTPodWeef.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D65555DD77CAB88A3B3BA513 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DDE8CCCD804D78E8608AB23E /* Pods_SZTPodWeef_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SZTPodWeef_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BAD8884444D51ECF7D9EE4 /* Pods-SZTPodWeef_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZTPodWeef_Example.release.xcconfig"; path = "Target Support Files/Pods-SZTPodWeef_Example/Pods-SZTPodWeef_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				25C6B1B0626775F66A0BAA23 /* Pods-SZTPodWeef_Tests.debug.xcconfig */,
 				131B865AF9BA69995C38BBAC /* Pods-SZTPodWeef_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shzuetai;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = K95TA45T9K;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 629EE590BD1544C649014714 /* Pods-SZTPodWeef_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K95TA45T9K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SZTPodWeef/SZTPodWeef-Prefix.pch";
 				INFOPLIST_FILE = "SZTPodWeef/SZTPodWeef-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = E6BAD8884444D51ECF7D9EE4 /* Pods-SZTPodWeef_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = K95TA45T9K;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SZTPodWeef/SZTPodWeef-Prefix.pch";
 				INFOPLIST_FILE = "SZTPodWeef/SZTPodWeef-Info.plist";

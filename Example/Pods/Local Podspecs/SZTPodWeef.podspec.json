@@ -1,0 +1,22 @@
+{
+  "name": "SZTPodWeef",
+  "version": "0.1.0",
+  "summary": "There is a palce contain some libraries",
+  "description": "存放相关的组件：\nSZTClickableLabel ：可以点击的中英文句子，并包含一些展示效果",
+  "homepage": "https://github.com/Sameny/SZTPodWeef",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shzuetai": "shuzetai@dakale.net"
+  },
+  "source": {
+    "git": "https://github.com/shzuetai/SZTPodWeef.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SZTPodWeef/Classes/**/*"
+}
