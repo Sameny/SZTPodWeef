@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SZTPodWeef_Example' do
+  pod 'SZTPodWeef', :path => '../'
+
+  target 'SZTPodWeef_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
